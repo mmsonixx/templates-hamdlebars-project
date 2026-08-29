@@ -1,0 +1,33 @@
+[
+    {
+        "title": "White Chicken",
+        "description": "Соус вершковий, цибуля маринована, курка маринована, бекон, сир моцарела, помідор",
+        "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96202%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "price": 300
+    },
+    {
+        "title": "Баварська",
+        "description": "Соус томатний, ковбаски баварські, печериці, сир моцарела, перець болгарський,  часникова олія",
+        "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96198%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "price": 250
+    },
+     {
+        "title": "Грецька",
+        "description": "Соус вершковий, курка маринована, сир моцарела, помідори, салат Айсберг, сир Фелата, маслини, соус бальзамічний",
+        "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96230%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "price": 150
+    },
+     {
+        "title": "Курка Гриби",
+        "description": "Соус вершково-шпинатний, цибуля маринована, курка маринована, печериці, сир моцарела,  часникова олія",
+        "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96190%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "price":  139
+    },
+     {
+        "title": "Вершковий лосось",
+        "description": "Соус вершково-шпинатний, сир моцарела, лосось, помідори, маслини, сир Фелата",
+        "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96234%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "price": 265
+    }
+
+]
