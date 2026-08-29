@@ -743,32 +743,32 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
             return undefined;
         };
-        return "    <li>\r\n      <h2 class=\"subtitle\">" + alias4((helper = (helper = lookupProperty(helpers, "title") || (depth0 != null ? lookupProperty(depth0, "title") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        return "    <li class=\"menu_item\">\r\n      <h2 class=\"item_subtitle\">" + alias4((helper = (helper = lookupProperty(helpers, "title") || (depth0 != null ? lookupProperty(depth0, "title") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "title",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 4,
-                    "column": 27
+                    "column": 32
                 },
                 "end": {
                     "line": 4,
-                    "column": 36
+                    "column": 41
                 }
             }
-        }) : helper)) + "</h2>\r\n      <p class=\"description\">" + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + "</h2>\r\n      <p class=\"item_description\">" + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "description",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 5,
-                    "column": 29
+                    "column": 34
                 },
                 "end": {
                     "line": 5,
-                    "column": 44
+                    "column": 49
                 }
             }
         }) : helper)) + "</p>\r\n      <img src=" + alias4((helper = (helper = lookupProperty(helpers, "photo") || (depth0 != null ? lookupProperty(depth0, "photo") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
@@ -799,18 +799,18 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 38
                 }
             }
-        }) : helper)) + " class=\"photo\" />\r\n      <p class=\"price\">" + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + ' class="item_photo" />\r\n      <p class="item_price">\u0426\u0456\u043D\u0430: ' + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "price",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 7,
-                    "column": 23
+                    "column": 34
                 },
                 "end": {
                     "line": 7,
-                    "column": 32
+                    "column": 43
                 }
             }
         }) : helper)) + "</p>\r\n    </li>\r\n";
