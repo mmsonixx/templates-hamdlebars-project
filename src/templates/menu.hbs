@@ -1,10 +1,10 @@
 <ul class="menu_list">
   {{#each menu}}
-    <li>
-      <h2 class="subtitle">{{title}}</h2>
-      <p class="description">{{description}}</p>
-      <img src={{photo}} alt={{title}} class="photo" />
-      <p class="price">{{price}}</p>
+    <li class="menu_item">
+      <h2 class="item_subtitle">{{title}}</h2>
+      <p class="item_description">{{description}}</p>
+      <img src={{photo}} alt={{title}} class="item_photo" />
+      <p class="item_price">Ціна: {{price}}</p>
     </li>
   {{/each}}
 </ul>
