@@ -28,6 +28,12 @@
         "description": "Соус вершково-шпинатний, сир моцарела, лосось, помідори, маслини, сир Фелата",
         "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96234%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
         "price": 265
+    },
+    { 
+        "title": "Чiзбургер ",
+        "description": "Соус BBQ, цибуля маринована, курка маринована, сир моцарела, огірок маринований, сир тостовий",
+        "photo": "https://www.iqpizza.com.ua/_next/image?url=https%3A%2F%2Fiq-pizza.eatery.club%2Fstorage%2Fiq-pizza%2Fproduct%2Ficon%2F96218%2Fconversions%2Ftext-optimized.jpg&w=1080&q=75",
+        "price": 235
     }
 
 ]

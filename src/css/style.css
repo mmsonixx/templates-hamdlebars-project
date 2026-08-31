@@ -1,26 +1,79 @@
+body{
+ background-image: url('https://static.vecteezy.com/system/resources/thumbnails/043/580/693/small_2x/pizza-on-transparent-background-png.png');
+background-repeat: no-repeat;
+background-size: 30%;
+background-position: -50 50;
+}
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+    font-family:  "Manufacturing Consent", system-ui;
+    color: orange;
+    text-shadow: 2px 2px 0px  #957dad,
+               4px 4px 0px #ee4b2b,
+               6px 6px 0px #00c2cb,
+               8px 8px 0px #ff7f50,
+               10px 10px 0px #553c9a;
+}
+.menu {
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .menu_list {
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 50px;
+gap: 60px;
 flex-wrap: wrap;
+width: 1000px;
+margin-bottom: 100px;
+
 }
 .menu_item{
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+border: 2px solid #e58f1e65;
+  box-shadow:
+     2px 2px 0px  #957dad,
+               4px 4px 0px #ee4b2b,
+               6px 6px 0px #00c2cb,
+               8px 8px 0px #ff7f50,
+               10px 10px 0px #553c9a;
+    border-radius: 5px;
+    padding: 10px;
+     transition: transform 250ms ease;
+}
+.menu_item:hover {
+  transform: scale(1.03);
 }
 .item_subtitle{
-
+margin-bottom: 10px;
+font-family: "Google Sans", sans-serif;
 }
 .item_description{
     width: 300px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
 }
 .item_photo{
 width: 300px;
 height: 300px;
+margin-bottom: 15px;
 }
 .item_price{
-
+ font-family: "Open Sans", sans-serif;
 }
+
+.item_price span {
+    background-color: rgba(232, 105, 9, 0.20);
+    border-radius: 5px;
+    padding: 3px;
+  color: rgb(255, 166, 0);
+  font-weight: 700;
+}
+
