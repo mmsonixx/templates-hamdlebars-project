@@ -1,0 +1,78 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/043/580/693/small_2x/pizza-on-transparent-background-png.png");
+  background-position: -50px 50px;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  text-shadow: 2px 2px #957dad, 4px 4px #ee4b2b, 6px 6px #00c2cb, 8px 8px coral, 10px 10px #553c9a;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  font-family: Manufacturing Consent, system-ui;
+  font-size: 60px;
+}
+
+.menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu_list {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 1000px;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.menu_item {
+  border: 2px solid #e58f1e65;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: transform .25s;
+  display: flex;
+  box-shadow: 2px 2px #957dad, 4px 4px #ee4b2b, 6px 6px #00c2cb, 8px 8px coral, 10px 10px #553c9a;
+}
+
+.menu_item:hover {
+  transform: scale(1.03);
+}
+
+.item_subtitle {
+  margin-bottom: 10px;
+  font-family: Google Sans, sans-serif;
+}
+
+.item_description {
+  width: 300px;
+  margin-bottom: 10px;
+  font-family: Open Sans, sans-serif;
+}
+
+.item_photo {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.item_price {
+  font-family: Open Sans, sans-serif;
+}
+
+.item_price span {
+  color: #ffa600;
+  background-color: #e8690933;
+  border-radius: 5px;
+  padding: 3px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=template.c92073ef.css.map */
